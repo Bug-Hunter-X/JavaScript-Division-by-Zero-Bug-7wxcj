@@ -1,0 +1,1 @@
+function foo(a, b) {    if (b === 0) {        return NaN; // Or Infinity, or throw an error     }    return a / b;}foo(0, 0); // returns NaNfoo(1, 0); // returns NaNfoo(0, 1); // returns 0
